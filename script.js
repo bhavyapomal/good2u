@@ -30,7 +30,7 @@ $(document).ready(function () {
 
   // Search Toggle
   $("#search-btn").click(function () {
-    $("nav-right").addClass("search-active");
+    $(".right").addClass("search-active");
   });
 
   $("#close-search").click(function () {
