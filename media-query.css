@@ -1,0 +1,595 @@
+@media (max-width: 1600px) {
+
+  /* Content Styling */
+  .cta-left .cta-card:nth-child(1) .cta-content {
+    top: 17%;
+    left: 53%;
+    gap: 8px;
+  }
+
+  .cta-left .cta-card:nth-child(2) .cta-content {
+    top: 17%;
+    left: 5%;
+    gap: 8px;
+  }
+
+  .cta-card.large .cta-content {
+    top: 8%;
+    left: 30%;
+    gap: 8px;
+  }
+
+  .cta-content p {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .cta-content h2 {
+    font-size: 50px;
+  }
+
+  /* Button */
+  .cta-content button {
+    padding: 8px 20px;
+    margin-top: 40px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    gap: 2px;
+  }
+}
+
+@media (max-width: 1800px) {
+
+  /* ----------------- CTA Section ------------------ */
+
+  /* Content Styling */
+  .cta-left .cta-card:nth-child(1) .cta-content {
+    top: 17%;
+    left: 53%;
+    gap: 8px;
+  }
+
+  .cta-left .cta-card:nth-child(2) .cta-content {
+    top: 17%;
+    left: 5%;
+    gap: 8px;
+  }
+
+  .cta-card.large .cta-content {
+    top: 8%;
+    left: 30%;
+    gap: 8px;
+  }
+
+  .cta-content p {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .cta-content h2 {
+    font-size: 50px;
+  }
+
+  /* Button */
+  .cta-content button {
+    padding: 8px 20px;
+    margin-top: 40px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    gap: 2px;
+  }
+
+  .cta-content button svg {
+    width: 15px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .container {
+    max-width: 100%;
+  }
+
+  /* --------- Navigation ---------- */
+
+  .nav-logo {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 24px 0;
+  }
+
+  .logo img {
+    width: 280px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .input-box {
+    min-width: 280px;
+  }
+
+  .right a p {
+    display: none;
+  }
+
+  .product-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100%;
+    background: #f0f0f0;
+    box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+    z-index: 100;
+  }
+
+  .product-nav.open {
+    left: 0;
+  }
+
+  .product-nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-left: 1.5rem;
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: relative;
+    top: 120%;
+    left: -20px;
+    background: #f0f0f0;
+    list-style: none;
+    padding: 10px 0;
+    width: 180px;
+    box-shadow: 0px 5px 10px #f0f0f0;
+    z-index: 150;
+  }
+
+  /* Close Button */
+  .menu-close {
+    position: relative;
+    left: 190px;
+    display: block;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+  } 
+
+
+  /* ------------- CTA Section ------------- */
+  /* Content Styling */
+  .cta-left .cta-card:nth-child(1) .cta-content {
+    top: 18%;
+    left: 52%;
+    gap: 8px;
+  }
+
+  .cta-left .cta-card:nth-child(2) .cta-content {
+    top: 18%;
+    left: 4%;
+    gap: 8px;
+  }
+
+  .cta-card.large .cta-content {
+    top: 9%;
+    left: 29%;
+    gap: 8px;
+  }
+
+  .cta-content p {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  .cta-content h2 {
+    font-size: 44px;
+  }
+
+  /* Button */
+  .cta-content button {
+    padding: 6px 16px;
+    margin-top: 24px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    gap: 2px;
+  }
+
+  .cta-content button svg {
+    width: 12px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  
+
+  /* ----------------- CTA Section ------------------ */
+
+  /* Content Styling */
+  .cta-left .cta-card:nth-child(1) .cta-content {
+    top: 17%;
+    left: 53%;
+    gap: 10px;
+  }
+
+  .cta-left .cta-card:nth-child(2) .cta-content {
+    top: 17%;
+    left: 5%;
+    gap: 10px;
+  }
+
+  .cta-card.large .cta-content {
+    top: 8%;
+    left: 30%;
+    gap: 10px;
+  }
+
+  .cta-content p {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .cta-content h2 {
+    font-size: 36px;
+  }
+
+  /* Button */
+  .cta-content button {
+    padding: 6px 14px;
+    margin-top: 24px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .cta-content button svg {
+    width: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .search-toggle {
+    display: block;
+  }
+
+  .input-box {
+    display: none;
+  }
+
+  /* Initially hide search box */
+  .input-box {
+    flex-grow: 1;
+    max-width: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f5f5f5;
+    border-radius: 21px;
+    padding: 5px 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+
+  /* Search Form */
+  .right form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Input Field */
+  .right form input {
+    flex-grow: 1;
+    border: none;
+    background: transparent;
+    padding: 8px 12px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .right form input:focus {
+    outline: none;
+  }
+
+  /* Search Button inside Input Box */
+  .right form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  .right form button img {
+    width: 16px;
+  }
+
+  /* Show search box when active */
+  .right.search-active .input-box {
+    position: relative;
+    max-width: 100%;
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+  }
+
+  /* Hide other elements when search is active */
+  .right.search-active a,
+  .right.search-active .search-toggle {
+    display: none;
+  }
+
+  /* Close Button inside Input Box */
+  .close-search {
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  /* Show close button when search box is active */
+  .right.search-active .close-search {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ----------------- CTA Section ------------------ */
+
+  .cta-content p {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .cta-content h2 {
+    font-size: 34px;
+  }
+
+  /* Button */
+  .cta-content button {
+    padding: 4px 13px;
+    margin-top: 24px;
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
+  .cta-content button svg {
+    width: 11px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* ----------------- CTA Section ------------------ */
+
+  .cta-content p {
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+
+  .cta-content h2 {
+    font-size: 26px;
+  }
+
+  /* Button */
+  .cta-content button {
+    padding: 4px 10px;
+    margin-top: 16px;
+    font-size: 6px;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    gap: 1px;
+  }
+
+  .cta-content button svg {
+    width: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  /* --------- Navigation Mobile ---------- */
+  .nav-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the whole section */
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative; 
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+
+  .menu-toggle {
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .logo img {
+    width: 280px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 1rem;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  /* Icons */
+  .right a img {
+    width: 20px;
+  }
+
+  .search-toggle {
+    font-size: 20px;
+    margin-top: 0.25rem;
+  }
+
+  /* ------------------- CTA Section ---------------- */
+
+  .cta-container {
+    flex-direction: column;
+  }
+
+  .cta-content p {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .cta-content h2 {
+    font-size: 42px;
+  }
+
+  /* Button */
+  .cta-content button {
+    padding: 6px 14px;
+    margin-top: 32px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    gap: 2px;
+  }
+
+  .cta-content button svg {
+    width: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .logo img {
+    width: 200px;
+  }
+
+  .right a svg {
+    width: 20px;
+  }
+
+  .count {
+    right: 0.75rem;
+    font-size: 10px;
+  }
+
+  .search-toggle svg {
+    width: 18px;
+    margin-top: 0.25rem;
+  }
+
+  /* ------------------- CTA Section ---------------- */
+
+  /* Content Styling */
+  .cta-left .cta-card:nth-child(1) .cta-content {
+    top: 17%;
+    left: 55%;
+    gap: 6px;
+  }
+
+  .cta-left .cta-card:nth-child(2) .cta-content {
+    top: 17%;
+    left: 7%;
+    gap: 6px;
+  }
+
+  .cta-card.large .cta-content {
+    top: 8%;
+    left: 32%;
+    gap: 6px;
+  }
+
+  .cta-content p {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .cta-content h2 {
+    font-size: 28px;
+  }
+
+  /* Button */
+  .cta-content button {
+    padding: 6px 14px;
+    margin-top: 24px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    gap: 2px;
+    border-width: 1px;
+  }
+
+  .cta-content button svg {
+    width: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  /* ------------------- CTA Section ---------------- */
+
+  /* Content Styling */
+  .cta-left .cta-card:nth-child(1) .cta-content {
+    top: 17%;
+    left: 57%;
+    gap: 4px;
+  }
+
+  .cta-left .cta-card:nth-child(2) .cta-content {
+    top: 17%;
+    left: 7%;
+    gap: 4px;
+  }
+
+  .cta-card.large .cta-content {
+    top: 8%;
+    left: 32%;
+    gap: 4px;
+  }
+
+  .cta-content p {
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+
+  .cta-content h2 {
+    font-size: 20px;
+  }
+
+  /* Button */
+  .cta-content button {
+    padding: 4px 10px;
+    margin-top: 16px;
+    font-size: 8px;
+    letter-spacing: 1px;
+    gap: 1px;
+    border-width: 1px;
+  }
+
+  .cta-content button svg {
+    width: 8px;
+  }
+}
